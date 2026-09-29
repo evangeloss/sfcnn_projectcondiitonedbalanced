@@ -1,0 +1,283 @@
+{
+  "source_notebook": "diplomatikh200epoches-matlab-version (4).ipynb",
+  "source_notebook_sha256": "3edca870238761884dda2f69797304f8a7637eb3402ed1299ad6d528ab937a84",
+  "partition_rule": "code cells 0-22 are original_sfcnn; later non-empty code cells are additional_tests",
+  "cells": [
+    {
+      "cell": 0,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/00_imports_and_plotting.py",
+      "source_sha256": "4932db2fb58e432c0fec6b4a8ed9d455df3528777f4219f5c02f398928db26e1"
+    },
+    {
+      "cell": 1,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/01_path_parameter_generation.py",
+      "source_sha256": "f645bea72943f5190f2a0b44a2a30bd63fb3cabdda9224b746ae6f7fc14463b8"
+    },
+    {
+      "cell": 2,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/02_path_parameter_example.py",
+      "source_sha256": "6c4a69e9c827855c784fe5f26a2733092abeb53880936c546262f69f9c79e5a0"
+    },
+    {
+      "cell": 3,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/03_deformed_array_geometry.py",
+      "source_sha256": "a9290c2330d2a3d10be4ff998bb5d493644fd3991eac331aed50576126e6806a"
+    },
+    {
+      "cell": 4,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/04_legacy_random_channel_generation.py",
+      "source_sha256": "40b78b8f6602774c02302225c87215c426a41737bb5d147384689444f210ed67"
+    },
+    {
+      "cell": 5,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/05_steering_vector.py",
+      "source_sha256": "425f81a143a9c0a3a739e827ed8e9e4782ec79f90b6c9c40aed9ec9dab622e77"
+    },
+    {
+      "cell": 6,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/06_fim_system_generation.py",
+      "source_sha256": "12d2147435c53f25f80a79658aefdd3dd81fd6ac1785ac55780021c559418451"
+    },
+    {
+      "cell": 8,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/08_shared_path_channel_builder.py",
+      "source_sha256": "2bdaed69242d68344ff10e5dbe04b5f28a423ef9e785c460c0d73d62e96d2ab5"
+    },
+    {
+      "cell": 9,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/09_shared_path_sanity_checks.py",
+      "source_sha256": "bf4189fa842aeb486515f9877530846e62e452046e94774a0bd8e5e24f665dc1"
+    },
+    {
+      "cell": 10,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/10_fim_system_plotting.py",
+      "source_sha256": "a6d2e54d0f2a386d8e00fd6b651ecfde1f235ab09909b2082c2d532cbab21334"
+    },
+    {
+      "cell": 11,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/11_geometry_visualization_checks.py",
+      "source_sha256": "ada4217a786d1c0ccf64137a9c971aaf2d428539f4e413ede67d626cbdb001d8"
+    },
+    {
+      "cell": 12,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/12_multi_pilot_generation.py",
+      "source_sha256": "8791353aabb829e666053676fc22821ecc4f01efc14e6dace11f80be96a96f04"
+    },
+    {
+      "cell": 13,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/13_pilot_transmission.py",
+      "source_sha256": "76b491e77e1d93f2c8b7877e1842148b9e9a0caffd1c4e715d55c5a125cec5b0"
+    },
+    {
+      "cell": 14,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/14_ridge_te_estimator.py",
+      "source_sha256": "80900ea82606fb9a72b97f7e97f496ceec26642daf9f50834d31450b7acc9333"
+    },
+    {
+      "cell": 15,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/15_multideformation_dataset.py",
+      "source_sha256": "08b9c546fd5c17068d1ce4e743f24fd793507d16ec84cb47e37a667fb2e4a4b3"
+    },
+    {
+      "cell": 16,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/16_torch_imports.py",
+      "source_sha256": "b2a00b6d4adfaddbd350ff1718efdf5e31a0ed6c354677ad15ed946fe3b5d050"
+    },
+    {
+      "cell": 17,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/17_sfcnn_model.py",
+      "source_sha256": "3424b95c521e1c514c76c293b33960030e577df593eec7b75c0795eb32a19ef4"
+    },
+    {
+      "cell": 18,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/18_ls_evaluation.py",
+      "source_sha256": "158b2f3fdd6a4c6a543702397ffc1a254c707a04771cf5ece62e46f9bfddec41"
+    },
+    {
+      "cell": 19,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/19_ls_evaluation_sanity_check.py",
+      "source_sha256": "9d0761193e13a2bc154c7905b4bf2cdcb77a9688da2d10ce724cdb478841aff0"
+    },
+    {
+      "cell": 20,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/20_cnn_evaluation.py",
+      "source_sha256": "7d4dfc1076766ad6cbdca74465442c89148262cdcb7f82cf591096f51c084704"
+    },
+    {
+      "cell": 21,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/21_cuda_timing_helper.py",
+      "source_sha256": "d7aa584cfe49847cf9d259abc694d48c4b6eeb390ade3e7cbe074343a8e650f9"
+    },
+    {
+      "cell": 22,
+      "group": "original_sfcnn",
+      "file": "original_sfcnn/22_train_and_evaluate_200_epochs.py",
+      "source_sha256": "8da7acc877450b9b6f7c5216148287f8493ac392d4fedf37206809ed99d4873f"
+    },
+    {
+      "cell": 23,
+      "group": "additional_tests",
+      "file": "additional_tests/23_path_count_sweep.py",
+      "source_sha256": "e59bc0464c8af1559f8e3dbb599e017f8dfc7f0f394cead823b756c420b13221"
+    },
+    {
+      "cell": 24,
+      "group": "additional_tests",
+      "file": "additional_tests/24_run_path_count_sweep.py",
+      "source_sha256": "5c6da169967c5de3e8ba6a372794f960e69739894a0fa5208ff78d1394b75d5b"
+    },
+    {
+      "cell": 25,
+      "group": "additional_tests",
+      "file": "additional_tests/25_plot_path_count_sweep.py",
+      "source_sha256": "fc7cebfcbdcfe05f1c3313132e9cfac3411a8feb2c5ff5a648c5eea87f3abcd6"
+    },
+    {
+      "cell": 26,
+      "group": "additional_tests",
+      "file": "additional_tests/26_compare_saved_nmse_results_a.py",
+      "source_sha256": "10bedaee5bbb68bae2b5fdecae4aa4e183592b256f57d036614e60921dac8de2"
+    },
+    {
+      "cell": 27,
+      "group": "additional_tests",
+      "file": "additional_tests/27_compare_saved_nmse_results_b.py",
+      "source_sha256": "2b23926db0897d5fcdd5469bdebfcdd63e106e5f1b569a2eb861fd517d150199"
+    },
+    {
+      "cell": 28,
+      "group": "additional_tests",
+      "file": "additional_tests/28_alternate_array_training_run.py",
+      "source_sha256": "4a53774de6c44d86170699ef421f68223778e01c47d2056e2de3d7158e808584"
+    },
+    {
+      "cell": 29,
+      "group": "additional_tests",
+      "file": "additional_tests/29_mmse_baseline_experiment.py",
+      "source_sha256": "273c0f307cf9278ad58ce02b8892d8610a065191d7d63eeaf87510e2f0c7b51f"
+    },
+    {
+      "cell": 30,
+      "group": "additional_tests",
+      "file": "additional_tests/30_received_y_dataset_and_evaluation.py",
+      "source_sha256": "a05bac3e04cca137a84f0cefbefd78e76c2941f74df97d2cd66688b2786ab1f2"
+    },
+    {
+      "cell": 31,
+      "group": "additional_tests",
+      "file": "additional_tests/31_received_y_training_run.py",
+      "source_sha256": "8cd083e4d7a37f454d3757fb13484cfa4b5ea58abff6c34ac89703662fa10933"
+    },
+    {
+      "cell": 32,
+      "group": "additional_tests",
+      "file": "additional_tests/32_numpy_import_placeholder.py",
+      "source_sha256": "d34aea06c990aeedd2f8f5ff809c1180b92fccca0381269b7c18654043b9a374"
+    },
+    {
+      "cell": 33,
+      "group": "additional_tests",
+      "file": "additional_tests/33_compare_received_y_results.py",
+      "source_sha256": "8befa4ed9969aa15d6d3d623e59a5bfa9b52ea66b7c8af18d22f2351d3a6a02f"
+    },
+    {
+      "cell": 34,
+      "group": "additional_tests",
+      "file": "additional_tests/34_achievable_rate_functions.py",
+      "source_sha256": "cbd06e38d0d45d75b71d0cf8d7c8b1b6dcfc1e59ca301d9cb2b4694ced3c08d3"
+    },
+    {
+      "cell": 35,
+      "group": "additional_tests",
+      "file": "additional_tests/35_achievable_rate_experiment.py",
+      "source_sha256": "6c51efc60b7db0b83606f27bb344057d0395c49f7e170ea2b60be2277e49b7a4"
+    },
+    {
+      "cell": 36,
+      "group": "additional_tests",
+      "file": "additional_tests/36_fim_codebook_metrics.py",
+      "source_sha256": "f8c6ef259e3610f84959a80c9ba167cc315a1afb4900266cdad9163adc99dd45"
+    },
+    {
+      "cell": 37,
+      "group": "additional_tests",
+      "file": "additional_tests/37_fim_codebook_optimizer.py",
+      "source_sha256": "1104717f1288df8fe0f93abf4378f5ea6989a11c2f67324677cee2c1ea20b3c5"
+    },
+    {
+      "cell": 38,
+      "group": "additional_tests",
+      "file": "additional_tests/38_run_fim_codebook_optimization.py",
+      "source_sha256": "bfa00dd9783546a79b11d92727d36a2d787769cb581b46f56247624d2c473160"
+    },
+    {
+      "cell": 39,
+      "group": "additional_tests",
+      "file": "additional_tests/39_random_codebook_baseline.py",
+      "source_sha256": "be579bb00c83e330f9d9b06768e7d31b59faea8cc02534fd1d4e1dcfdc937fde"
+    },
+    {
+      "cell": 40,
+      "group": "additional_tests",
+      "file": "additional_tests/40_fim_eigenvalue_check.py",
+      "source_sha256": "124b2e1d27f3ce1c7b7a298b2c4e4c87a798f00dff9bde2d54ed82564c93be8c"
+    },
+    {
+      "cell": 41,
+      "group": "additional_tests",
+      "file": "additional_tests/41_single_view_training_run.py",
+      "source_sha256": "e85fd551330d59398a4bae373cb1bc46eaf8da7e403fa718684760e38813ab96"
+    },
+    {
+      "cell": 42,
+      "group": "additional_tests",
+      "file": "additional_tests/42_eight_view_training_run.py",
+      "source_sha256": "08ec2d0b58820decd8f096623bc90d4a33c0f7b7c15a4bffc7c38bf986c614ed"
+    },
+    {
+      "cell": 43,
+      "group": "additional_tests",
+      "file": "additional_tests/43_morphing_range_sweep.py",
+      "source_sha256": "ccc5ab4ea951e21f4838fdfc683bc8ae185eb906eb5fe18cf82d34c24a146a8a"
+    },
+    {
+      "cell": 44,
+      "group": "additional_tests",
+      "file": "additional_tests/44_print_codebook_morphing_range.py",
+      "source_sha256": "548b28ef8335795d4fcf534c7d0a93c8f40dca3855434f9fd67de5625e435ea4"
+    },
+    {
+      "cell": 45,
+      "group": "additional_tests",
+      "file": "additional_tests/45_extended_morphing_range_values.py",
+      "source_sha256": "cb8cdfb085eb21496a6e5a3543dbc8d8fcdb80bc20df58cff1b1a6d4fc0cc648"
+    },
+    {
+      "cell": 46,
+      "group": "additional_tests",
+      "file": "additional_tests/46_deformation_range_example.py",
+      "source_sha256": "325a3e4314d3a1eca1732721101c35015a3d56f149c049b3f07c7c786bde927e"
+    }
+  ]
+}
